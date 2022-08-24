@@ -43,7 +43,6 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
     this.customerService.getCarsLarge().then((cars) => {
       this.datasource = cars;
-      this.totalRecords = this.datasource.length;
     });
   }
 
