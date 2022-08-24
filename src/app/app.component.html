@@ -1,0 +1,56 @@
+<div id="mySidebar" class="sidebar open"></div>
+
+<div class="navbar-top">
+  <div id="logo-wrapper" class="logo-wrapper">
+    <div class="logo">
+      <a routerlink="/"><img src="assets/images/coopservice-logo.svg" /></a>
+    </div>
+  </div>
+  <div onclick="toggleNav()" class="openbtn ng-star-inserted">
+    <i aria-hidden="true" class="fa fa-bars"></i>
+  </div>
+  <!--bindings={
+  "ng-reflect-ng-if": "true"
+}-->
+  <div class="commessa-wrapper">
+    <button
+      pbutton=""
+      type="button"
+      icon="pi pi-home"
+      ptooltip="Shell home"
+      tooltipposition="left"
+      class="
+        p-element
+        pull-left
+        p-button-home p-button p-component p-button-icon-only
+        ng-star-inserted
+      "
+      ng-reflect-icon="pi pi-home"
+      ng-reflect-text="Shell home"
+      ng-reflect-tooltip-position="left"
+      tabindex="0"
+      ng-reflect-router-link="/"
+    >
+      <span class="p-button-icon pi pi-home" aria-hidden="true"></span
+      ><span aria-hidden="true" class="p-button-label">&nbsp;</span></button
+    ><!--bindings={
+  "ng-reflect-ng-if": "true"
+}-->
+    <div class="commessa cp"><span> 1600000-Commessa ICT</span></div>
+  </div>
+  <ul class="user-menu">
+    <li>Benvenuto</li>
+    <li>
+      <a
+        ><span class="profile-name"
+          ><i class="pi pi-user"></i> Stefano Rossi (admin)</span
+        ><i class="material-icons ui-icon-keyboard-arrow-down"></i
+      ></a>
+    </li>
+    <li>logout</li>
+  </ul>
+</div>
+
+<div id="main" class="close">
+  <router-outlet></router-outlet>
+</div>
