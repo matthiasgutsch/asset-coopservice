@@ -6,10 +6,10 @@ import { Car } from '../model/car';
 import { CustomerService } from '../services/customerservice';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
+  selector: 'app-edit',
+  templateUrl: './edit.component.html',
 })
-export class HomeComponent implements OnInit {
+export class EditComponent implements OnInit {
   name = '';
   display: boolean;
   cols = [

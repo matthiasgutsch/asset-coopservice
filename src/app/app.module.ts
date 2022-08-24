@@ -15,6 +15,7 @@ import { CardModule } from 'primeng/card';
 import { Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './app.routing.module';
+import { EditComponent } from './edit/edit.component';
 
 export const APP_ROUTES: Routes = [
   {
@@ -38,7 +39,7 @@ export const APP_ROUTES: Routes = [
     CardModule,
     ButtonModule,
   ],
-  declarations: [AppComponent, HomeComponent],
+  declarations: [AppComponent, HomeComponent, EditComponent],
   providers: [CustomerService],
   bootstrap: [AppComponent],
 })
