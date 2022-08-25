@@ -22,20 +22,50 @@
 
 <div class="wrapper">
   <p-card>
-    <div class="p-grid form-group">
-      <div class="p-col-12">
-        <input type="text" pInputText />
-      </div>
-    </div>
-    <div class="p-grid form-group">
-      <div class="p-col-12">
-        <input type="text" pInputText />
-      </div>
-    </div>
-    <div class="p-grid p-fluid">
-      <div class="p-col-12">
-        <input type="text" pInputText />
-      </div>
-    </div>
+    <p-tabView>
+      <p-tabPanel header="Header 1">
+        <div class="p-grid form-group">
+          <div class="p-col-2">
+            <label>UUID</label>
+          </div>
+          <div class="p-col-10">
+            <div class="p-grid">
+              <div class="p-col">
+                <input type="text" pInputText />
+              </div>
+              <div class="p-col">
+                <input type="text" pInputText />
+              </div>
+              <div class="p-col">
+                <input type="text" pInputText />
+              </div>
+              <div class="p-col">
+                <input type="text" pInputText />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-grid form-group">
+          <div class="p-col-2">
+            <label>UUID</label>
+          </div>
+          <div class="p-col-10">
+            <input type="text" pInputText />
+          </div>
+        </div>
+
+        <div class="p-grid form-group">
+          <div class="p-col-2">
+            <label>UUID</label>
+          </div>
+          <div class="p-col-10">
+            <input type="text" pInputText />
+          </div>
+        </div>
+      </p-tabPanel>
+      <p-tabPanel header="Header 2"> Content 2 </p-tabPanel>
+      <p-tabPanel header="Header 3"> Content 3 </p-tabPanel>
+    </p-tabView>
   </p-card>
 </div>

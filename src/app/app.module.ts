@@ -13,6 +13,7 @@ import { AccordionModule } from 'primeng/accordion';
 import { SplitButtonModule } from 'primeng/splitbutton';
 import { CardModule } from 'primeng/card';
 import { InputTextModule } from 'primeng/inputtext';
+import { TabViewModule } from 'primeng/tabview';
 
 import { Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
@@ -37,6 +38,7 @@ export const APP_ROUTES: Routes = [
     TableModule,
     InputTextModule,
     AccordionModule,
+    TabViewModule,
     SplitButtonModule,
     AppRoutingModule,
     CardModule,
